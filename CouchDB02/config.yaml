@@ -1,0 +1,16 @@
+{
+  "name": "CouchDB",
+  "version": "latest",
+  "slug": "couchdb",
+  "description": "Addon CouchDB pour Home Assistant",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "ports": {
+    "5984/tcp": 5984
+  },
+  "map": ["config:rw", "ssl"],
+  "options": {},
+  "schema": {},
+  "image": "apache/couchdb"
+}

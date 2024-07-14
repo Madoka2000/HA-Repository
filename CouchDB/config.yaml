@@ -12,9 +12,5 @@
   "map": ["config:rw", "ssl"],
   "options": {},
   "schema": {},
-  "environment": {
-    "COUCHDB_USER": "admin",
-    "COUCHDB_PASSWORD": "password"
-  },
   "image": "apache/couchdb"
 }

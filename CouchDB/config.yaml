@@ -1,6 +1,6 @@
 {
   "name": "CouchDB",
-  "version": "1.0",
+  "version": "latest",
   "slug": "couchdb",
   "description": "Addon CouchDB pour Home Assistant",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],

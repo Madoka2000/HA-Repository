@@ -10,4 +10,4 @@ RUN chmod +x /run.sh
 EXPOSE 5984
 
 # Point d'entrée
-CMD ["/run.sh"]
+CMD [ "/run.sh" ]

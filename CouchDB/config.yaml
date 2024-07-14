@@ -10,7 +10,13 @@
     "5984/tcp": 5984
   },
   "map": ["config:rw", "ssl"],
-  "options": {},
-  "schema": {},
+  "options": {
+    "COUCHDB_USER": "admin",
+    "COUCHDB_PASSWORD": "password"
+  },
+  "schema": {
+    "COUCHDB_USER": "str",
+    "COUCHDB_PASSWORD": "str"
+  },
   "image": "apache/couchdb"
 }

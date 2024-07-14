@@ -9,8 +9,5 @@
   "boot": "auto",
   "ports": {
     "5984/tcp": 5984
-  },
-  "map": [],
-  "options": {},
-  "schema": {}
+  }
 }
